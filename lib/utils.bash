@@ -3,7 +3,7 @@
 set -euo pipefail
 
 # TODO: Ensure this is the correct GitHub homepage where releases can be downloaded for java-jbr.
-GH_REPO="https://github.com/bruno-lopes/java-jbr"
+GH_REPO="https://github.com/bruno-lopes/asdf-java-jbr"
 TOOL_NAME="java-jbr"
 TOOL_TEST="java -version"
 
