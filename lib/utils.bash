@@ -68,8 +68,7 @@ echo "$ASDF_DOWNLOAD_PATH/* $install_path"
 		test -x "$install_path/bin/$tool_cmd" || fail "Expected $install_path/bin/$tool_cmd to be executable."
 
 		echo "$TOOL_NAME $version installation was successful!"
-	)
-	 || (
+	) || (
 		rm -rf "$install_path"
 		fail "An error occurred while installing $TOOL_NAME $version."
 	)
